@@ -260,7 +260,7 @@ int main(){
         printf("Digite o terceiro lado: ");
         scanf("%lf", &lado3);
     } while (lado3 <= 0);
-    (lado1 < lado2 + lado3 & lado2 < lado1 + lado3 & lado3 < lado1 + lado2) ? printf("Os numeros digitados podem representar os lados de um triangulo! \n") : printf("Os numeros digitados nao podem representar os lados de um triangulo \n");
+    (lado1 < lado2 + lado3 && lado2 < lado1 + lado3 && lado3 < lado1 + lado2) ? printf("Os numeros digitados podem representar os lados de um triangulo! \n") : printf("Os numeros digitados nao podem representar os lados de um triangulo \n");
     printf("------------------- \n\n");
 
     /*
