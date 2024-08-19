@@ -1,2 +1,4 @@
-*/**.exe
 .vscode
+*/**
+!*/**.c
+*/**tempCodeRunnerFile.c
